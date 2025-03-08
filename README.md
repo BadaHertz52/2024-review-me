@@ -41,7 +41,7 @@
   - 모바일 브라우저의 네이티브 UI 대응  
 
 ### 🚀 **성능 최적화**  
-- **번들 최적화**: Webpack `production` 모드 외에도 **SVGO, Brotli 압축 적용**
+- **번들 최적화**: Webpack `production` 모드 외에도 **Brotli 압축 추가 적용**
   
 - **폰트 최적화**: Preconnect, Preload, 가변 다이나믹 서브셋 폰트 활용
   
@@ -58,8 +58,6 @@
 - 코드 저장 시 `Stylelint`를 활용하여 CSS 코드 정렬 환경 설정
 
 - Google Analytics, Amplitude를 사용해 사용자 데이터 수집
-  
-- Sentry로 클라이언트 오류 로그 수집
 
 ### 📝 리뷰 작성 폼 구현 및 페이지 리팩토링  
 - 사용자 테스트 기반 애자일 개발 방식 적용, `Recoil`을 활용한 리뷰 작성 폼 구현
